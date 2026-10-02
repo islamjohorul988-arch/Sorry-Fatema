@@ -92,7 +92,7 @@ body {
 }
 
 /* Red hearts */
-.sad {
+.heart {
     position: absolute;
     top: -100px;
 
@@ -246,7 +246,7 @@ for (let i = 0; i < 10; i++) {
 
     const heart = document.createElement("div");
 
-    heart.className = "sad";
+    heart.className = "heart";
 
     heart.innerHTML = "🥹";
 
@@ -262,7 +262,7 @@ for (let i = 0; i < 10; i++) {
     heart.style.animationDelay =
         (-Math.random() * 8) + "s";
 
-    scene.appendChild(sad);
+    scene.appendChild(heart);
 }
 
 </script>
